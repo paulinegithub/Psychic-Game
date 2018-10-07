@@ -79,7 +79,7 @@ document.onkeyup = function (event) {
         // update score board
         document.getElementById("wins").innerHTML = "Wins: " + wins;
         document.getElementById("losses").innerHTML = "Losses: " + losses;
-        document.getElementById("guesses-left").innerHTML = "Guesses left: " + guessesLeft;
-        document.getElementById("guess-list").innerHTML = "Guesses so far: " + guessList;
+        document.getElementById("guesses-left").innerHTML = "Guesses Left: " + guessesLeft;
+        document.getElementById("guess-list").innerHTML = "Your guesses so far: " + guessList;
     }
 }
