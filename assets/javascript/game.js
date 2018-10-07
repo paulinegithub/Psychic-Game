@@ -53,13 +53,15 @@ document.onkeyup = function (event) {
 
             updateAnswer();
             resetGuess();
-        } else { // if there are guesses left
+        } else {
+            // if there are guesses left, do not update for letters already guessed
+            if (guessList.indexOf(userGuess) === -1) {
+                guessList.push(userGuess); // update list of guesses
+                // console.log("guesses list: " + guessList);
 
-            guessList.push(userGuess); // update list of guesses
-            // console.log("guesses list: " + guessList);
-
-            guessesLeft--; // decrease guess count
-            // console.log("guesses left: " + guessesLeft);
+                guessesLeft--; // decrease guess count
+                // console.log("guesses left: " + guessesLeft);
+            }
         }
 
         // if no more guesses allowed
