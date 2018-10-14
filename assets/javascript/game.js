@@ -8,15 +8,6 @@ var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", 
 var userGuess = "";
 var answer = "";
 
-// var winText = document.getElementById("wins");
-// var lossText = document.getElementById("losses");
-// var chancesText = document.getElementById("guesses-left");
-// var listText = document.getElementById("guess-list");
-// console.log(winsText);
-// console.log(lossText);
-// console.log(chancesText);
-// console.log(listText);
-
 // function to get a random answer
 function updateAnswer() {
     answer = letters[Math.floor(Math.random() * letters.length)];
