@@ -6,7 +6,7 @@
 
 ---
 
-## How to Play (Desktop Only)
+## How to Play (Desktop Only):
 
 In this game, a random letter is determined as the secret answer every round.
 
