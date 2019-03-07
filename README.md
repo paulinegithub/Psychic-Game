@@ -16,6 +16,15 @@ Repeated guesses in a round will not decrease the remaining guess count.
 
 ---
 
+## Built with:
+
+- CSS3
+- HTML5
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - High-level programming language.
+- [Visual Studio Code](https://code.visualstudio.com/) - Source code editor developed by Microsoft.
+
+---
+
 ## Author:
 
 - **Pauline Senh** - [plsenh](https://github.com/plsenh)
