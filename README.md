@@ -27,4 +27,4 @@ Repeated guesses in a round will not decrease the remaining guess count.
 
 ## Author:
 
-- **Pauline Senh** - [plsenh](https://github.com/plsenh)
+- **Pauline S.** - [paulinegithub](https://github.com/paulinegithub)
